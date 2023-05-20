@@ -12,8 +12,9 @@ bughunter0 = Client(
 
 @bughunter0.on_message(filters.command(["start"]))
 async def start(bot, update):
-    await update.reply_text("Start Message Here")
-
+    await update.reply_text("Join My Update Channel")
+<a href=https://t.me/24x7Update>亗 Update Channel</a>
+    
 @bughunter0.on_message(filters.forwarded and filters.channel)
 async def channeltag(bot, message):
    try:
