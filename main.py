@@ -12,7 +12,7 @@ bughunter0 = Client(
 
 @bughunter0.on_message(filters.command(["start"]))
 async def start(bot, update):
-    await update.reply_text("Join My Update Channel : @24x7Update")
+    await update.reply_text("Join My Update Channel : @i24x7Update")
 
    
 @bughunter0.on_message(filters.forwarded and filters.channel)
