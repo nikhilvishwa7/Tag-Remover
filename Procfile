@@ -1,1 +1,1 @@
-web: python3 main.py
+bughunter0: python3 main.py
